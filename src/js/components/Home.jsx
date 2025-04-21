@@ -7,17 +7,28 @@ import { Card } from "./Card";
 const Home = () => {
 	return (
 		<>
-			<div className="w-100">
+			<div >
 				<Navbar />
 			</div>
 			<div>
 				<Jumbotron />
 			</div>
-			<div className="d-flex justify-content-between w-85">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+			<div className="container">
+				<div className="row">
+					<div className="col-12 col-md-6 col-lg-3">
+						<Card />
+					</div>
+					<div className="col-12 col-md-6 col-lg-3">
+						<Card />
+					</div>
+					<div className="col-12 col-md-6 col-lg-3">
+						<Card />
+					</div>
+					<div className="col-12 col-md-6 col-lg-3">
+						<Card />
+					</div>
+
+				</div>
 			</div>
 		</>
 	);
