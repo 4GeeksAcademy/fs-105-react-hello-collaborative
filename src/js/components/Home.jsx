@@ -14,18 +14,18 @@ const Home = () => {
 			<div>
 				<Jumbotron />
 			</div>
-			<div className="container-fluid">
-				<div className="row">
-					<div className="col-12 col-md-6 col-lg-3">
+			<div className="container-fluid ">
+				<div className="row ">
+					<div className="col-12 col-md-6 col-lg-3 pb-2">
 						<Card />
 					</div>
-					<div className="col-12 col-md-6 col-lg-3">
+					<div className="col-12 col-md-6 col-lg-3 pb-2">
 						<Card />
 					</div>
-					<div className="col-12 col-md-6 col-lg-3">
+					<div className="col-12 col-md-6 col-lg-3 pb-2">
 						<Card />
 					</div>
-					<div className="col-12 col-md-6 col-lg-3">
+					<div className="col-12 col-md-6 col-lg-3 pb-2">
 						<Card />
 					</div>
 				</div>
