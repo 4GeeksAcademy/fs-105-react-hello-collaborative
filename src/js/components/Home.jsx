@@ -29,8 +29,8 @@ const Home = () => {
 						<Card />
 					</div>
 				</div>
-				<Footer/>
 			</div>
+			<Footer/>
 		</>
 	);
 };
